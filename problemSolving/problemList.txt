@@ -1,0 +1,9 @@
+1. ----> you have a array of object there are so many item in duplicate . count the object how many items are duplicate here ?----> output {"mango": 3, "banana": 2, "apple": 4, "stawberry": 2}
+
+2. You have a input number . then this number is even ? or odd number ?
+
+3.  object থেকে falsy value কিভাবে খুজে বের করে বাদ দিতে পারি ?
+
+4. array থেকে falsy value কিভাবে খুজে বের করে বাদ দিতে পারি ?
+
+5. 1-100 থেকে কোন সংখ্যা গুলো 3,5 এবং 3 ও 5 উভয় সংখ্যা দ্বারা বিভাজ্য বের করুন

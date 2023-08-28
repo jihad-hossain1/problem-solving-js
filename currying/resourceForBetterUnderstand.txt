@@ -1,0 +1,4 @@
+
+currying: https://www.youtube.com/watch?v=DkBcfYtBZnQ
+
+infinityCurrying: https://www.youtube.com/watch?v=K7JyrMHfSro
