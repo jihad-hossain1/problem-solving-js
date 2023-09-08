@@ -11,4 +11,4 @@ const first = () => {
 
 first();
 
-// console.log(typeof (queueMicrotask))
+console.log(typeof (queueMicrotask))
