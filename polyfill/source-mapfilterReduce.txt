@@ -1,0 +1,2 @@
+map-filter: https://www.youtube.com/watch?v=oGe-PuQZyqY
+reduce: https://www.youtube.com/watch?v=FOEjJCm34zw

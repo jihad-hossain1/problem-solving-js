@@ -1,0 +1,50 @@
+/* 2. what is specifity ? ans:  */
+
+/* div {
+    background-color: red;
+}
+
+div {
+    background-color: green;
+}
+
+div.specifity {
+    background-color: blue;
+}
+
+div#specifityId {
+    background-color: aqua;
+} */
+
+div {
+    /* background-color: blueviolet !important; */
+}
+
+
+/* < !-- 6. how to create tri angle --> */
+
+.tri {
+    height: 0;
+    width: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid greenyellow;
+}
+
+
+
+/* 7. what is psudo element ? */
+
+.psudo:hover::after {
+    content: 'I am injected to psudo div tag';
+    content-visibility: hidden;
+}
+
+
+/* 10. what are Data attributes ? */
+
+
+.profile:hover::before {
+    display: inline-block;
+    content: attr(data-name);
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <!-- 1. what is css box model ? -->
+
+    ans: css box model is a box around wraped every element and html which include Content inside padding border margin
+    <div style="box-sizing: border-box; border: 10px; padding: 10px; height: 50%; visibility: hidden;">
+        <img style="border-radius: 10px; border: solid yellowgreen 5px ; max-width: 400px; max-height: fit-content;"
+            src="https://images.unsplash.com/photo-1693598525517-f3d9b7b8a542?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+            alt="not rou">
+    </div>
+
+
+
+
+    <!-- 2. what is specifity ?  -->
+    ans: see an style.css file
+
+    <div class="specifity" id="specifityId" style="height: 300px; width: 300px;">
+
+    </div>
+
+
+
+
+    <!-- 3. how to align a block element inside another element  -->
+    ans: see an style2.css file
+
+    <section class="out">
+        <section class="in"></section>
+    </section>
+
+
+
+
+    <!-- 4. Diffenence between static, relative, absolute and fixed position -->
+    ans: see an style3.css file
+    <section class="one">one</section>
+    <section class="two">two</section>
+    <section class="three">three</section>
+
+
+
+    <!--5 differnce between visibility: hidden; vs display: none  -->
+
+    <div style="visibility:hidden ;">
+        name
+        ans: this element are exist in DOM but not in UI present but margin padding are present
+    </div>
+    <div style="display:none ;">
+        other
+        ans: the element dose not exist in DOM
+    </div>
+
+    <!-- 6. how to create tri angle  -->
+
+    ans: see an style.css
+    <div class="tri"></div>
+
+
+    <!-- 7. what is psudo element ? -->
+
+    ans: see on style.css
+    <div class="psudo" style="padding: 5px; border: solid gray 2px ; display: inline-block;">I am hover </div>
+
+
+    <!-- 8. what is flex box ? what is grid in css ? -->
+
+
+
+
+    <!-- 9. what is shadow dom ?  -->
+    ans: css is bsically global which means if i write css for one element it can impact another element because it's
+    global often when we build a web component the web components are build independently and they are used in differnt
+    projects so it means its own local css so when i use in any project it doesn't it should not impact the average css
+    and vice-versa so the outer ship as css should not be impacting the component so we can use shadow dom which is
+    nothing but a scoped subtree inside your element and the example will go something like this ....
+
+    <!-- 10. what are Data attributes ?  -->
+    ans: see on style.css
+    <div class="profile" data-name="abc" data-youtube-name="xyz" data-id="1">
+        profile
+    </div>
+
+</body>
+
+</html>
