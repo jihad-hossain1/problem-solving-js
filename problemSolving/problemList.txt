@@ -9,3 +9,8 @@
 5. 1-100 থেকে কোন সংখ্যা গুলো 3,5 এবং 3 ও 5 উভয় সংখ্যা দ্বারা বিভাজ্য বের করুন
 
 6. কোনো Array থেকে কিভাবে সব থেকে বড় string খুজে বের করবেন এবং index নাম্বার দেখবেন
+7. how to find a max number of object in array ?
+
+8.you have many duplicate object in array. So, how to get a without duplicate object of array
+
+

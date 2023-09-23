@@ -11,3 +11,5 @@ let input = 322;
 const result = isOdd(input)
 
 console.log(input, "is an odd number", result)
+
+

@@ -2,7 +2,7 @@
 // output {"mango": 3, "banana": 2, "apple": 4, "stawberry": 2}
 
 const fruits = [
-    "banana", "banana", "mango", "mango", "mango", "apple", "apple", "apple", "apple", "stawberry", "stawberry"
+    "banana", "banana", "mango", "mango", "mango", "apple", "apple", "stawberry", "stawberry"
 ]
 
 function countDuplicate(data) {
@@ -16,3 +16,5 @@ function countDuplicate(data) {
 }
 
 console.log(countDuplicate(fruits))
+
+// 
